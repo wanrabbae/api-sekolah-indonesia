@@ -12,7 +12,7 @@
 
 BASE Url:
 ```bash
-https://api-alquranid.herokuapp.com
+https://api-sekolah-indonesia.herokuapp.com
 ```
 ## - Menampilkan seluruh data-data sekolah namun ada limitnya
 Kenapa saya memberi limit ? karena datanya sangat banyak sekali jika ditampilkan semuanya hehehe
@@ -73,3 +73,6 @@ Contoh Response:
   }
 ]
 ```
+
+### Gunakan free API ini dengan Bijak dan Benar ya :)
+### Jika ada kesalahan pada API atau ingin meminta saran bisa hubungi email: alwanrabbae@gmail.com atau lewat issues pada repo ini.<br>Kurang lebihnya mohon maaf, Wassalamualaikum wr.wb
