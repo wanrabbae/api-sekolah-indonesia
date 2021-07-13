@@ -1,6 +1,6 @@
 # API Data Sekolah Seluruh Indonesia v2.0
 ### Assalamualaikum wr.wb
-### API gratis untuk Data Sekolah Seluruh Indonesia v2.0. Maaf jika kadang-kadang datanya lambat respon karena keseluruhan datanya sangat banyak dan insyallah sangat lengkap, mulai dari jenjang SD, SMP, SMA, SMK di seluruh Indonesia dan mohon maaf sekali jika fitur-fiturnya belum lengkap. insyallah saya akan lebih mengembangkan api ini lebih baik lagi.
+### API gratis untuk Data Sekolah Seluruh Indonesia v2.0. Jenjang SD, SMP, SMA, SMK di seluruh Indonesia. Insyallah lengkap...
 
 ### API ini dibuat menggunakan: <br>
 <div align="center">
