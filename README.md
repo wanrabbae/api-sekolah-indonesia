@@ -10,6 +10,7 @@
 
 ### Apa yg baru dari API ini ?
 - Pagination API
+- Search sekolah berdasarkan nama sekolah (namun belum stabil)
 
 # Penggunaan
 
@@ -73,6 +74,35 @@ Contoh Response:
   alamat_jalan: "PANTAI SELATAN 1 PULAU TIDUNG.",
   lintang: "-5.8023000",
   bujur: "106.5099000"
+  }
+]
+```
+
+## - Search data sekolah berdasarkan nama sekolah
+
+```bash
+https://api-sekolah-indonesia.herokuapp.com/sekolah/s?sekolah=NAMA_SEKOLAH
+```
+Contoh: ``` https://api-sekolah-indonesia.herokuapp.com/sekolah/s?sekolah=smks informatika al irsyad al islamiyyah ```
+
+Contoh Response: 
+```bash
+[
+  {
+    kode_prop: "020000 ",
+    propinsi: "Prov. Jawa Barat",
+    kode_kab_kota: "026300 ",
+    kabupaten_kota: "Kota Cirebon",
+    kode_kec: "026304 ",
+    kecamatan: "Kec. Kesambi",
+    id: "6FD235E9-2546-408C-A81C-BFEA26D36B78",
+    npsn: "20222168",
+    sekolah: "SMKS INFORMATIKA AL IRSYAD AL ISLAMIYYAH",
+    bentuk: "SMK",
+    status: "S",
+    alamat_jalan: "PERJUANGAN NO. 31",
+    lintang: "-6.7438000",
+    bujur: "108.5483000"
   }
 ]
 ```
