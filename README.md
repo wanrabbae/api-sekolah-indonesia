@@ -9,8 +9,8 @@
 </div>
 
 ### Apa yg baru dari API ini ?
-- Pagination API
-- Search sekolah berdasarkan nama sekolah (namun belum stabil)
+- Pagination API!
+- Search sekolah berdasarkan nama sekolah!
 
 # Penggunaan
 
@@ -83,27 +83,43 @@ Contoh Response:
 ```bash
 https://api-sekolah-indonesia.herokuapp.com/sekolah/s?sekolah=NAMA_SEKOLAH
 ```
-Contoh: ``` https://api-sekolah-indonesia.herokuapp.com/sekolah/s?sekolah=smks informatika al irsyad al islamiyyah ```
+Contoh: ``` https://api-sekolah-indonesia.herokuapp.com/sekolah/s?sekolah=smks informatika ```
 
 Contoh Response: 
 ```bash
 [
   {
-    kode_prop: "020000 ",
-    propinsi: "Prov. Jawa Barat",
-    kode_kab_kota: "026300 ",
-    kabupaten_kota: "Kota Cirebon",
-    kode_kec: "026304 ",
-    kecamatan: "Kec. Kesambi",
-    id: "6FD235E9-2546-408C-A81C-BFEA26D36B78",
-    npsn: "20222168",
-    sekolah: "SMKS INFORMATIKA AL IRSYAD AL ISLAMIYYAH",
+    kode_prop: "010000 ",
+    propinsi: "Prov. D.K.I. Jakarta",
+    kode_kab_kota: "016300 ",
+    kabupaten_kota: "Kota Jakarta Selatan",
+    kode_kec: "016302 ",
+    kecamatan: "Kec. Pasar Minggu",
+    id: "67EEF23E-FBF3-44CD-8DA1-97ACD5E1EB3D",
+    npsn: "20109266",
+    sekolah: "SMKS INFORMATIKA YASMA",
     bentuk: "SMK",
     status: "S",
-    alamat_jalan: "PERJUANGAN NO. 31",
-    lintang: "-6.7438000",
-    bujur: "108.5483000"
-  }
+    alamat_jalan: "JL. JERUK PURUT",
+    lintang: "-6.3094000",
+    bujur: "106.8143000"
+  },
+  {
+    kode_prop: "020000 ",
+    propinsi: "Prov. Jawa Barat",
+    kode_kab_kota: "020500 ",
+    kabupaten_kota: "Kab. Bogor",
+    kode_kec: "020507 ",
+    kecamatan: "Kec. Ciomas",
+    id: "E25B4F76-B0CA-417C-A5C7-262DE59EC79A",
+    npsn: "20232431",
+    sekolah: "SMKS INFORMATIKA BINA GENERASI BOGOR",
+    bentuk: "SMK",
+    status: "S",
+    alamat_jalan: "JL.CIKERTI NO.12",
+    lintang: "-6.6004000",
+    bujur: "106.7656000"
+  },
 ]
 ```
 
