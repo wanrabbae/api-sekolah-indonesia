@@ -16,12 +16,12 @@
 
 BASE Url:
 ```bash
-https://api-sekolah-indonesia.herokuapp.com
+https://api-sekolah-indonesia.vercel.app
 ```
 ## - Menampilkan seluruh data-data sekolah
 
 ```bash
-https://api-sekolah-indonesia.herokuapp.com/sekolah?page=1&perPage=5
+/sekolah?page=1&perPage=5
 ```
 Note: ```page``` dan ```perPage``` berupa integer / number.
 
@@ -51,7 +51,7 @@ Contoh Response:
 ## - Menampilkan data sekolah berdasarkan jenjang
 
 ```bash
-https://api-sekolah-indonesia.herokuapp.com/sekolah/SMK?page=1&perPage=5
+/sekolah/SMK?page=1&perPage=5
 ```
 Note: jenjang hanya SD, SMP, SMA, SMK. ```page``` dan ```perPage``` berupa integer / number.
 
@@ -81,7 +81,7 @@ Contoh Response:
 ## - Search data sekolah berdasarkan nama sekolah
 
 ```bash
-https://api-sekolah-indonesia.herokuapp.com/sekolah/s?sekolah=NAMA_SEKOLAH
+/sekolah/s?sekolah=NAMA_SEKOLAH
 ```
 Contoh: ``` https://api-sekolah-indonesia.herokuapp.com/sekolah/s?sekolah=smks informatika ```
 
