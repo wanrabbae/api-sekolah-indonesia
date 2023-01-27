@@ -123,9 +123,9 @@ Contoh Response:
 ]
 ```
 
-## filter query parameter data berdasarkan `kode provinsi`, `atau kode kabupaten/kota`, atau `kode kecamatan`
+## - Filter query parameter data berdasarkan `kode provinsi`, `atau kode kabupaten/kota`, atau `kode kecamatan`
 
-By provinsi
+### - By provinsi
 ```
 /sekolah?provinsi=071700&page=1&perPage=5
 ```
@@ -133,7 +133,7 @@ By provinsi
 /sekolah/smp?provinsi=071700&page=1&perPage=5
 ```
 
-By kabupaten/kota
+### - By kabupaten/kota
 ```
 /sekolah?kab_kota=071700&page=1&perPage=5
 ```
@@ -141,7 +141,7 @@ By kabupaten/kota
 /sekolah/sd?kab_kota=071700&page=1&perPage=5
 ```
 
-By kecamatan
+### - By kecamatan
 ```
 /sekolah?kec=071700&page=1&perPage=5
 ```
