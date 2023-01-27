@@ -14,7 +14,7 @@
 
 # Penggunaan
 
-BASE Url:
+BASE URL:
 ```bash
 https://api-sekolah-indonesia.vercel.app
 ```
@@ -83,7 +83,7 @@ Contoh Response:
 ```bash
 /sekolah/s?sekolah=NAMA_SEKOLAH
 ```
-Contoh: ``` https://api-sekolah-indonesia.herokuapp.com/sekolah/s?sekolah=smks informatika ```
+Contoh: ``` /sekolah/s?sekolah=smks informatika ```
 
 Contoh Response: 
 ```bash
@@ -121,6 +121,32 @@ Contoh Response:
     bujur: "106.7656000"
   },
 ]
+```
+
+## filter query parameter data berdasarkan `kode provinsi`, `atau kode kabupaten/kota`, atau `kode kecamatan`
+
+By provinsi
+```
+/sekolah?provinsi=071700&page=1&perPage=5
+```
+```
+/sekolah/smp?provinsi=071700&page=1&perPage=5
+```
+
+By kabupaten/kota
+```
+/sekolah?kab_kota=071700&page=1&perPage=5
+```
+```
+/sekolah/sd?kab_kota=071700&page=1&perPage=5
+```
+
+By kecamatan
+```
+/sekolah?kec=071700&page=1&perPage=5
+```
+```
+/sekolah/smk?kec=071700&page=1&perPage=5
 ```
 
 ### Gunakan free API ini dengan Bijak dan Benar ya :)
