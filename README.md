@@ -145,5 +145,10 @@ Contoh Response:
 /sekolah/smk?kec=071700&page=1&perPage=5
 ```
 
+## - Filter query parameter data berdasarkan `npsn`
+```bash
+/sekolah?npsn=20106342
+```
+
 ### Gunakan free API ini dengan Bijak dan Benar ya :)
 ### Jika ada kesalahan pada API atau ingin meminta saran bisa hubungi email: alwanrabbae@gmail.com atau lewat issues pada repo ini.<br>Kurang lebihnya mohon maaf, Wassalamualaikum wr.wb
